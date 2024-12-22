@@ -61,7 +61,7 @@ function SectionLogin() {
               <Card className="card-register">
                 <h3 className="title mx-auto" style={{ fontWeight: "bold" }} >Bienvenido a Netflix</h3>
                 <Form className="register-form" onSubmit={handleSubmit}>
-                  <label style={{ fontWeight: "bold" }} >Email</label>
+                  <label style={{ fontWeight: "bold" }} >Email
                   <InputGroup className="form-group-no-border">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
@@ -76,6 +76,7 @@ function SectionLogin() {
                       onChange={handleChange}
                     />
                   </InputGroup>
+                  </label>
                   <label style={{ fontWeight: "bold" }} >Password</label>
                   <InputGroup className="form-group-no-border">
                     <InputGroupAddon addonType="prepend">
