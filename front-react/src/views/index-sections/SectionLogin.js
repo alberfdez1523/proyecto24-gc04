@@ -47,7 +47,6 @@ function SectionLogin() {
   };
 
   return (
-    <>
       <div
         className="section section-image section-login"
         style={{
@@ -115,7 +114,6 @@ function SectionLogin() {
           </Row>
         </Container>
       </div>
-    </>
   );
 }
 
