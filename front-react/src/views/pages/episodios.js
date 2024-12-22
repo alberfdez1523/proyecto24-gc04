@@ -47,7 +47,7 @@ const Episodes = () => {
 
     const user = JSON.parse(sessionStorage.getItem('user'));
     console.log("User data:", user);
-    if (user && user.admin) {
+    if (user?.admin) {
       setIsAdmin(true);
     } else {
       console.log("User is not admin or user data is not available");
